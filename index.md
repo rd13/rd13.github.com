@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hello World!
+title: Stuart Rutter | Web Developer
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -10,4 +10,3 @@ tagline: Supporting tagline
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
