@@ -1,1 +1,11 @@
-<div class="ad-promo">sdfsdfds</div>
+<div class="ad-promo" id="bait_node">
+  <script>
+    
+    var result = window.getComputedStyle(document.getElementById('bait_node')).display === 'none'
+    window.postMessage({
+      adblocker: result,
+      reason: 'iframe bait was hidden'
+    }, '*');
+  
+  </script>
+</div>
